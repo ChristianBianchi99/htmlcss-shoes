@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Lexend Deca, sans-serif;
+}
+/* INIZIO STILE HEADER*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+header .row {
+    justify-content: flex-end;
+}
+.links {
+    margin: 50px 0px;
+}
+.link-scarpa {
+    font-size: 15px;
+    background-color: white;
+    padding: 10px 17px;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px 0px black ;
+    font-weight: 900;
+}
+/* FINE STILE HEADER*/
+/* INIZIO STILE MAIN*/
+.background {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.col-scarpa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 750px;
+}
+img {
+    width: 750px;
+}
+strong {
+    color: yellow;
+    font-size: 53px;
+    font-weight: 900;
+    word-spacing: 20px;
+    padding: 0px 10px;
+}
+.testo-verde {
+    color: green;
+}
+/* FINE STILE MAIN*/
+/* INIZIO STILE LAYOUT*/
+.row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+/* FINE STILE LAYOUT*/
