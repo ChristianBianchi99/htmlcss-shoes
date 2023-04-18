@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Lexend Deca, sans-serif;
+}
+/* INIZIO STILE HEADER*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header .row {
+    justify-content: flex-end;
+}
+.links {
+    margin: 50px 0px;
+}
+.link-scarpa {
+    font-size: 15px;
+    background-color: white;
+    padding: 10px 17px;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px 0px black ;
+}
+/* FINE STILE HEADER*/
+/* INIZIO STILE MAIN*/
+main {
+    background-color: red;
+    height: 100vh;
+    width: 100%;
+}
+/* FINE STILE MAIN*/
+/* INIZIO STILE LAYOUT*/
+.row {
+    display: flex;
+    width: 100%;
+}
+/* FINE STILE LAYOUT*/
+/* INIZIO STILE IN COMUNE*/
+.link-scarpa {
+    font-weight: 900;
+}
+/* FINE STILE IN COMUNE*/
